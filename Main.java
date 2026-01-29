@@ -1,17 +1,19 @@
+
 package Librari;
 
 public class Main {
     public static void main(String[] args) {
+
         Author author2 = new Author("Martin", "Camaj");
-        Book book2 = new Book("2414", "Prilli i thyer" , author1);
-        Book book3 = new Book("1354", "Dranja", author2);
+        // Book book2 = new Book("2414", "Prilli i thyer", author1);
+        Book book3 = new Book("1354854", "Dranja", author2);
 
 
         Library library = new Library();
 
-        library.addBook(book1);
-        library.addBook(book2);
-        library.addBook(book3);
+        //  library.addBook(book1);
+        // library.addBook(book2);
+        // library.addBook(book3);
 
         try{
             Author author1 = new Author(null, null);
